@@ -6,8 +6,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
 /**
- * @描述：     @ViewModel容器，继承Fragment使得ViewModel可以通过FragmentManager绑定Activity生命周期
- * @作者：     @黄卫旗
+ * @描述： @ViewModel容器
+ * @作者： @黄卫旗
  * @创建时间： @21/05/2018
  */
 public class ViewModelHolder<VM> extends Fragment {
@@ -17,7 +17,8 @@ public class ViewModelHolder<VM> extends Fragment {
     /**
      * 调用{@link #createContainer(Object)}创建实例
      */
-    public ViewModelHolder() { }
+    public ViewModelHolder() {
+    }
 
     public static <M> ViewModelHolder createContainer(@NonNull M viewModel) {
         ViewModelHolder<M> viewModelContainer = new ViewModelHolder<>();
@@ -39,4 +40,5 @@ public class ViewModelHolder<VM> extends Fragment {
     public void setViewModel(@NonNull VM viewModel) {
         mViewModel = viewModel;
     }
+
 }
