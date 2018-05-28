@@ -1,8 +1,8 @@
 # MVVMSample  
 
-## 重点  
-1、[GoogleComponentsDemo<Google Architecture Components 演示程序>》](https://github.com/xuexiangjys/GoogleComponentsDemo)    
-2、   
+## 重点项目  
+1、PilotFunBasic中的MVVM --> 对应本项目中的basic模块   
+2、[GoogleComponentsDemo<Google Architecture Components 演示程序>》](https://github.com/xuexiangjys/GoogleComponentsDemo)       
 
 ## 参考文献   
 1、[DataBinding系列（一）：DataBinding初认识](https://www.jianshu.com/p/53925ccb900e)     
