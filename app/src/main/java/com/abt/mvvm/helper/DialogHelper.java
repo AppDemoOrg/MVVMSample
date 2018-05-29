@@ -21,7 +21,6 @@ public class DialogHelper {
 
     /**
      * 展示加载框
-     *
      * @param context context
      * @param msg     加载信息
      */
@@ -49,7 +48,6 @@ public class DialogHelper {
 
     /**
      * 创建加载框
-     *
      * @param context context
      * @param msg     msg
      */

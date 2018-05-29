@@ -42,7 +42,6 @@ public abstract class BaseAdapter<T, VH extends RecyclerView.ViewHolder> extends
 
     /**
      * 创建 View Holder
-     *
      * @param parent   parent
      * @param viewType item type
      * @return view holder
@@ -51,7 +50,6 @@ public abstract class BaseAdapter<T, VH extends RecyclerView.ViewHolder> extends
 
     /**
      * 绑定 View Holder
-     *
      * @param vh       view holder
      * @param position position
      */
@@ -59,7 +57,6 @@ public abstract class BaseAdapter<T, VH extends RecyclerView.ViewHolder> extends
 
     /**
      * 刷新数据
-     *
      * @param data 数据源
      */
     public void refreshData(List<T> data) {
@@ -70,7 +67,6 @@ public abstract class BaseAdapter<T, VH extends RecyclerView.ViewHolder> extends
 
     /**
      * 加载更多
-     *
      * @param data 加载的新数据
      */
     public void loadMoreData(List<T> data) {

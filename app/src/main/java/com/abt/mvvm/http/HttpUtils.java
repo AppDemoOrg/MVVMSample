@@ -19,13 +19,13 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class HttpUtils {
 
     private static final int DEFAULT_TIMEOUT = 8; //连接 超时的时间，单位：秒
+    private static HttpUtils httpUtils;
+    private static Retrofit retrofit;
+    private static RetrofitInterface retrofitInterface;
     private static final OkHttpClient client = new OkHttpClient.Builder().
             connectTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS).
             readTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS).
             writeTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS).build();
-    private static HttpUtils httpUtils;
-    private static Retrofit retrofit;
-    private static RetrofitInterface retrofitInterface;
 
     private synchronized static RetrofitInterface getRetrofit() {
         //初始化retrofit的配置

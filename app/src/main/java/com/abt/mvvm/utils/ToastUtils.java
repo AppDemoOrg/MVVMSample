@@ -29,7 +29,6 @@ public class ToastUtils {
 
     /**
      * show toast
-     *
      * @param context context
      * @param msgId   message resource id
      */

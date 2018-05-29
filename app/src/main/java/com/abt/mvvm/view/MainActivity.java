@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity implements INewsView, XRecyc
     private NewsAdapter newsAdapter; //新闻列表的适配器
     private NewsVM newsVM;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
