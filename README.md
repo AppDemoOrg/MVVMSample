@@ -3,7 +3,8 @@
 ## 说明
 1、app模块是参考[Android MVVM实战Demo完全解析](https://github.com/zhouxu88/MVVMDemo)实现的     
 2、basic模块是基于PilotFunBasic的MVVM   
-3、basic_sample是基于basic的sample   
+3、basic_sample是基于basic的sample     
+4、common模块是基于basic的mvvm上层common库   
 4、app模块和(basic、basic_sample)是完全独立的    
 
 ## 重点项目  
