@@ -3,8 +3,8 @@ package com.abt.basic_sample;
 import android.databinding.BaseObservable;
 import android.support.annotation.NonNull;
 
-import com.abt.basic.arch.mvvm.BaseActivity;
-import com.abt.basic.arch.mvvm.BaseFragment;
+import com.abt.basic.arch.mvvm.view.BaseActivity;
+import com.abt.basic.arch.mvvm.view.BaseFragment;
 
 public class MainActivity extends BaseActivity {
 

@@ -1,4 +1,4 @@
-package com.abt.basic.arch.mvvm;
+package com.abt.basic.arch.mvvm.view;
 
 /**
  * @描述： @空接口实现跳转

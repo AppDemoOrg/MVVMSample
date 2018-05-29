@@ -1,6 +1,8 @@
-package com.abt.basic.arch.mvvm;
+package com.abt.basic.arch.mvvm.view;
 
 import android.support.v4.app.Fragment;
+
+import com.abt.basic.arch.mvvm.viewmodel.IViewModel;
 
 /**
  * @描述： @MVVM BaseFragment基类

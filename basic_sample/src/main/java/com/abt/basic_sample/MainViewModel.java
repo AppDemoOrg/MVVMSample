@@ -2,10 +2,9 @@ package com.abt.basic_sample;
 
 import android.databinding.BaseObservable;
 import android.databinding.ObservableField;
-import android.view.View;
 
-import com.abt.basic.arch.mvvm.INavigator;
-import com.abt.basic.arch.mvvm.IViewModel;
+import com.abt.basic.arch.mvvm.view.INavigator;
+import com.abt.basic.arch.mvvm.viewmodel.IViewModel;
 
 /**
  * @描述： @MainViewModel

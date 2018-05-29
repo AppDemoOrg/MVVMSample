@@ -6,7 +6,7 @@
     <data>
         <variable
             name="toolbarVM"
-            type="com.abt.basic.arch.mvvm.ToolbarViewModel" />
+            type="com.abt.basic.arch.mvvm.viewmodel.ToolbarViewModel" />
         <variable
             name="mainVM"
             type="com.abt.basic_sample.MainViewModel" />

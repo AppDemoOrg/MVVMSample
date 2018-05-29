@@ -1,4 +1,6 @@
-package com.abt.basic.arch.mvvm;
+package com.abt.basic.arch.mvvm.viewmodel;
+
+import com.abt.basic.arch.mvvm.view.INavigator;
 
 /**
  * @描述： @ViewModel业务接口

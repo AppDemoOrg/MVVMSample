@@ -1,4 +1,6 @@
-package com.abt.basic.arch.mvvm;
+package com.abt.basic.arch.mvvm.view;
+
+import com.abt.basic.arch.mvvm.viewmodel.IViewModel;
 
 /**
  * @描述： @V与VM关联接口

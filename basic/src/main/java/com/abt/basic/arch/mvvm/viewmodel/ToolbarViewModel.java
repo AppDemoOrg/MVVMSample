@@ -1,4 +1,4 @@
-package com.abt.basic.arch.mvvm;
+package com.abt.basic.arch.mvvm.viewmodel;
 
 import android.databinding.BaseObservable;
 import android.databinding.ObservableField;

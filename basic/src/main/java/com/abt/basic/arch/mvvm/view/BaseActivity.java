@@ -1,4 +1,4 @@
-package com.abt.basic.arch.mvvm;
+package com.abt.basic.arch.mvvm.view;
 
 import android.databinding.BaseObservable;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 
 import com.abt.basic.R;
+import com.abt.basic.arch.mvvm.viewmodel.IViewModel;
+import com.abt.basic.arch.mvvm.ViewModelHolder;
 
 /**
  * @描述： @MVVM Activity基类

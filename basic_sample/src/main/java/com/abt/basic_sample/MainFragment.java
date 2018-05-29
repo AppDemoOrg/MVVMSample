@@ -6,8 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.abt.basic.arch.mvvm.BaseFragment;
-import com.abt.basic.arch.mvvm.ToolbarViewModel;
+import com.abt.basic.arch.mvvm.view.BaseFragment;
+import com.abt.basic.arch.mvvm.viewmodel.ToolbarViewModel;
 import com.abt.basic_sample.databinding.FragmentMainBinding;
 
 /**
