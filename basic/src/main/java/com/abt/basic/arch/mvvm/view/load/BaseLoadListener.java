@@ -1,4 +1,4 @@
-package com.abt.mvvm.base;
+package com.abt.basic.arch.mvvm.view.load;
 
 import java.util.List;
 
