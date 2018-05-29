@@ -1,7 +1,14 @@
 package com.abt.basic_sample;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
 import com.abt.basic.arch.mvvm.BaseFragment;
 import com.abt.basic.arch.mvvm.ToolbarViewModel;
+import com.abt.basic_sample.databinding.FragmentMainBinding;
 
 /**
  * @描述： @MainFragment
@@ -10,11 +17,30 @@ import com.abt.basic.arch.mvvm.ToolbarViewModel;
  */
 public class MainFragment extends BaseFragment<MainViewModel, ToolbarViewModel> {
 
+    private FragmentMainBinding mFragmentMainBinding;
+
     /**
      * 返回实例
      */
     public static MainFragment newInstance() {
         return new MainFragment();
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mViewModel.initialize();
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        mFragmentMainBinding = FragmentMainBinding.inflate(inflater, container, false);
+        mFragmentMainBinding.setMainVM(mViewModel);
+        mFragmentMainBinding.setToolbarVM(mToolbarModel);
+        return mFragmentMainBinding.getRoot();
     }
 
 }
